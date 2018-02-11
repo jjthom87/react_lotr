@@ -78,11 +78,9 @@ export default class Home extends Component {
           this.state.aragornDefeated ?
           <div className="text-center">
             <h1>YOU LOSE YOU SUCK, try again</h1>
-            <img src="http://www.manhuntdaily.com/files/Jimmy-Durano-fucks-Mike-Anders-in-Musclebound-by-Falcon-Studios-5.jpg"/>
           </div> : this.state.youWin ?
           <div>
             <h1>YOU WIN AND YOU STILL SUCK</h1>
-            <img src="http://www.manhuntdaily.com/files/Jimmy-Durano-fucks-Mike-Anders-in-Musclebound-by-Falcon-Studios-5.jpg"/>    
           </div> :
           <div className="row">
             <div className="col-md-2">
