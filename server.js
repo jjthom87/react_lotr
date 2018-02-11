@@ -16,7 +16,7 @@ app.get("/", function(req, res) {
 //wildcare route, when front end is refreshed, this defaults it to that page
 //try the app without this route and refresh your page, see what happens
 app.get("*", function(req, res) {
-  res.sendFile(path.join(__dirname + "/public/index.html"));
+  res.sendFile(path.join(__dirname + "./public/index.html"));
 });
 
 // Starting our express server
